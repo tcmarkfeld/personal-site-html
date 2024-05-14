@@ -12,3 +12,9 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+@media screen and (max-width: 767px) {
+    _::-webkit-full-page-media, _:future, :root body {
+        margin-bottom: 65px; 
+    }
+}
